@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的图文展示</title>
+    <title>个人名片</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>我的图文项目</h1>
-        <p class="intro">这里是我用来展示图文内容的地方。</p>
-
+    <div class="page">
         <div class="card">
-            <img src="https://pupywq.github.io/suyan/575-d-enhance-1.5x.png" alt="图片描述">
-            <h2>卡片标题</h2>
-            <p>这里是卡片的介绍文字...</p>
-        </div>
+            <!-- 头像区域，先把 src 换成你自己的图片链接 -->
+            <div class="avatar-wrap">
+                <img class="avatar" src="https://pupywq.github.io/suyan/575-d-enhance-1.5x.png" alt="头像">
+            </div>
 
-        <div class="card">
-            <img src="https://pupywq.github.io/suyan/575-d-enhance-1.5x.png" alt="图片描述">
-            <h2>第二张卡片</h2>
-            <p>这里是第二张卡片的介绍文字...</p>
+            <!-- 名字，换成你的 -->
+            <h1 class="name">你的名字</h1>
+            <!-- 账号/ID，换成你的 -->
+            <p class="handle">@your_id</p>
+
+            <!-- 一句签名，换成你的 -->
+            <p class="bio">这里写一句你的签名或想说的话</p>
+
+            <!-- 信息标签区 -->
+            <div class="tags">
+                <span class="tag">📍 IP属地：待填写</span>
+                <span class="tag">✨ 星座/标签：待填写</span>
+            </div>
+
+            <!-- 底部导航，先占位，后面做第 2、3 页再改链接 -->
+            <div class="nav">
+                <a href="#" class="nav-item active">名片</a>
+                <a href="#" class="nav-item">介绍</a>
+                <a href="#" class="nav-item">相册</a>
+            </div>
         </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>

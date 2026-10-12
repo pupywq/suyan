@@ -57,7 +57,8 @@
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background: #d5d5d8;
+    object-fit: cover;
+    display: block;
     margin: 0 auto 10px;
 }
 

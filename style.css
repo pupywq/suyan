@@ -285,3 +285,10 @@ body {
     font-weight: 600;
     background: rgba(0, 0, 0, 0.06);
 }
+
+/* 确保首页导航可点击 */
+.nav {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+}

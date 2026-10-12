@@ -6,13 +6,17 @@ body {
     color: #1d1d1f;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: center;   /* 整体水平居中 */
     padding: 24px;
 }
 
 .page {
     width: 100%;
-    max-width: 420px;
+    max-width: 420px;          /* 卡片最大宽度 */
+    margin: 0 auto;            /* 确保整页居中 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* 让卡片内部所有子元素水平居中 */
 }
 
 /* 顶部带弧度的背景区 */

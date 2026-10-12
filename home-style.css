@@ -1,23 +1,28 @@
-/* ===== 第 2 页专属样式，不影响第 1 页 ===== */
+/* ===== 第 2 页专属样式（竖版） ===== */
 .home-body * { margin: 0; padding: 0; box-sizing: border-box; }
 
 .home-body {
     font-family: -apple-system, "Helvetica Neue", "Microsoft YaHei", sans-serif;
     background: #e8e8ea;
     color: #1d1d1f;
+    min-height: 100vh;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    max-width: 420px;
-    margin: 0 auto;
+}
+
+/* 限制整页宽度，跟第1页一样窄 */
+.home-body .status-bar,
+.home-body .top-cards,
+.home-body .notice-card,
+.home-body .nav {
     width: 100%;
-    padding: 20px;
-    min-height: 100vh;
+    max-width: 420px;
 }
 
 .home-body .status-bar {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 12px;
@@ -25,11 +30,11 @@
     padding: 0 4px;
 }
 
+/* 上半部分：两个小卡片并排 */
 .home-body .top-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
-    width: 100%;
 }
 
 .home-body .card {
@@ -96,8 +101,8 @@
     line-height: 1.5;
 }
 
+/* 须知卡片 */
 .home-body .notice-card {
-    width: 100%;
     padding: 20px;
 }
 
@@ -149,13 +154,11 @@
     padding-top: 12px;
 }
 
-/* 底部导航，只作用于第 2 页 */
+/* 底部导航 */
 .home-body .nav {
     display: flex;
     justify-content: center;
     gap: 8px;
-    width: 100%;
-    max-width: 420px;
     padding: 14px 0 24px;
 }
 

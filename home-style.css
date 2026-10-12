@@ -179,3 +179,12 @@
     font-weight: 600;
     background: rgba(0, 0, 0, 0.06);
 }
+
+.home-body .profile-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+}

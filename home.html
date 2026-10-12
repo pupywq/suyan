@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-body">
+
+    <!-- 顶栏 -->
+    <div class="topbar">
+        <div class="topbar-left">
+            <button class="menu-btn">☰</button>
+            <span class="topbar-title">【这里填页面标题】</span>
+        </div>
+        <div class="topbar-right">
+            <span class="topbar-icon">🔔</span>
+            <span class="topbar-icon">⚙</span>
+        </div>
+    </div>
+
+    <!-- 顶部通知卡片 -->
+    <div class="notify-wrap">
+        <div class="notify-card">
+            <div class="notify-avatar"></div>
+            <div class="notify-text">
+                <p class="notify-title">【这里填通知标题】</p >
+                <p class="notify-sub">【这里填通知副文字】</p >
+            </div>
+            <span class="notify-time">【时间】</span>
+        </div>
+        <div class="notify-tabs">
+            <span>【标签1】</span>
+            <span class="muted">【标签2】</span>
+        </div>
+        <div class="notify-foot">【底部小字】</div>
+    </div>
+
+    <!-- 顶部按钮区 -->
+    <div class="top-actions">
+        <a href=" " class="pill-btn">【按钮1】</a >
+        <a href="#" class="pill-btn">【按钮2】</a >
+        <a href="#" class="pill-btn dark">【按钮3】</a >
+    </div>
+
+    <!-- 主网格布局 -->
+    <div class="home-grid">
+
+        <!-- 左侧抽屉 -->
+        <aside class="side-panel">
+            <div class="side-top">
+                <div class="side-avatar"></div>
+                <span class="side-arrow">→</span>
+            </div>
+            <p class="side-name">【名字】</p >
+            <p class="side-sub">【地区/签名】</p >
+
+            <div class="side-list">
+                <div class="side-item"><span>【列表1】</span><span>·</span></div>
+                <div class="side-item"><span>【列表2】</span><span>·</span></div>
+                <div class="side-item"><span>【列表3】</span><span>·</span></div>
+            </div>
+
+            <div class="side-lock">【小提示语】</div>
+            <div class="side-item bottom"><span>【底部标签】</span></div>
+        </aside>
+
+        <!-- 中间内容区 -->
+        <main class="main-col">
+
+            <!-- 播放条 -->
+            <div class="card play-bar">
+                <div class="play-cover"></div>
+                <div class="play-info">
+                    <p>【歌名】</p >
+                    <p class="muted">【歌手/专辑】</p >
+                </div>
+                <div class="play-icons">⏮ ▶ ⏭</div>
+                <span class="play-time">【时长】</span>
+            </div>
+
+            <!-- Reminder -->
+            <div class="card reminder">
+                <div class="reminder-input">
+                    <span>🔍</span>
+                    <span class="muted">【搜索提示】</span>
+                    <span class="reminder-count">【计数】</span>
+                </div>
+                <div class="reminder-list">
+                    <div class="reminder-row"><span>【行1】</span><span>【时间1】</span></div>
+                    <div class="reminder-row"><span>【行2】</span><span>【时间2】</span></div>
+                    <div class="reminder-row"><span>【行3】</span><span>【时间3】</span></div>
+                    <div class="reminder-row"><span>【行4】</span><span>【时间4】</span></div>
+                    <div class="reminder-row"><span>【行5】</span><span>【时间5】</span></div>
+                </div>
+                <div class="reminder-tags">
+                    <span class="chip">【标签】</span>
+                    <span class="chip">【标签】</span>
+                    <span class="chip">【标签】</span>
+                </div>
+            </div>
+
+            <!-- 长文卡片 -->
+            <div class="card article">
+                <h3>【标题】</h3>
+                <p>【这里填一段文案】</p >
+            </div>
+        </main>
+
+        <!-- 右侧组件 -->
+        <aside class="right-col">
+
+            <!-- 顶部行程卡 -->
+            <div class="card schedule">
+                <div class="schedule-head">
+                    <span>【顶部标题】</span>
+                    <span class="muted">＋</span>
+                </div>
+                <div class="schedule-tags">
+                    <span class="dot"></span> 【标签1】
+                    <span class="dot"></span> 【标签2】
+                    <span class="dot"></span> 【标签3】
+                </div>
+            </div>
+
+            <!-- 天使心卡片 -->
+            <div class="card angel">
+                <p class="angel-title">● 【卡片标题】</p >
+                <div class="angel-img"></div>
+                <div class="angel-actions">
+                    <span>↩</span><span>＋</span><span>👥</span><span>⚙</span><span>☰</span>
+                </div>
+            </div>
+
+            <!-- 邮箱卡片 -->
+            <div class="card mailbox">
+                <div class="mailbox-head">
+                    <span>✉ 【收件箱标题】 <b>【数字】</b></span>
+                </div>
+                <p class="muted">【副标题】</p >
+                <p class="mail-from">【发件人1】</p >
+                <p class="mail-preview">【预览1】</p >
+                <p class="mail-from">【发件人2】</p >
+                <p class="mail-preview">【预览2】</p >
+            </div>
+
+        </aside>
+    </div>
+
+</body>
+</html>

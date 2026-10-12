@@ -3,46 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人名片</title>
+    <title>个人主页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="page">
-        <div class="card">
-            <!-- 头像 -->
-            <div class="avatar-wrap">
-                <img class="avatar" src="https://pupywq.github.io/suyan/575-d-enhance-1.5x.png" alt="头像">
-            </div>
+        <!-- 顶部背景区 -->
+        <div class="hero"></div>
 
-            <!-- 名字与账号 -->
+        <!-- 头像 -->
+        <div class="avatar-wrap">
+            <img class="avatar" src="https://pupywq.github.io/suyan/575-d-enhance-1.5x.png" alt="头像">
+        </div>
+
+        <!-- 文字信息区 -->
+        <div class="profile">
             <h1 class="name">你的名字</h1>
             <p class="handle">@your_id</p>
+            <p class="signature">这里写一句你的签名或想说的话</p>
+            <p class="location">你的城市</p>
+        </div>
 
-            <!-- 签名 -->
-            <p class="bio">这里写一句你的签名或想说的话</p>
+        <!-- 下半部分：组件区 -->
+        <div class="widgets">
+            <h2 class="widget-title">Colorful Widget</h2>
 
-            <!-- 信息区 -->
-            <div class="info-list">
-                <div class="info-item">
-                    <span class="info-label">IP 属地</span>
-                    <span class="info-value">待填写</span>
+            <div class="widget-grid">
+                <!-- 左边四个方块 -->
+                <div class="icon-grid">
+                    <div class="icon-item">
+                        <div class="icon-box"></div>
+                        <p>Link 1</p>
+                    </div>
+                    <div class="icon-item">
+                        <div class="icon-box"></div>
+                        <p>Link 2</p>
+                    </div>
+                    <div class="icon-item">
+                        <div class="icon-box"></div>
+                        <p>Link 3</p>
+                    </div>
+                    <div class="icon-item">
+                        <div class="icon-box"></div>
+                        <p>Link 4</p>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <span class="info-label">星座</span>
-                    <span class="info-value">待填写</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-label">状态</span>
-                    <span class="info-value">待填写</span>
+
+                <!-- 右边大组件 -->
+                <div class="big-widget">
+                    <div class="widget-row">
+                        <div class="widget-circle"></div>
+                        <span>Widget A</span>
+                    </div>
+                    <div class="widget-row">
+                        <span>Widget B</span>
+                        <div class="widget-circle"></div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <!-- 底部导航 -->
-            <div class="nav">
-                <a href="#" class="nav-item active">名片</a>
-                <a href="#" class="nav-item">介绍</a>
-                <a href="#" class="nav-item">相册</a>
-            </div>
+        <!-- 底部导航 -->
+        <div class="nav">
+            <a href="#" class="nav-item active">名片</a>
+            <a href="#" class="nav-item">介绍</a>
+            <a href="#" class="nav-item">相册</a>
         </div>
     </div>
 </body>

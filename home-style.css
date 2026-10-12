@@ -1,0 +1,177 @@
+/* ===== 第 2 页专属样式，不影响第 1 页 ===== */
+.home-body * { margin: 0; padding: 0; box-sizing: border-box; }
+
+.home-body {
+    font-family: -apple-system, "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    background: #e8e8ea;
+    color: #1d1d1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 420px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.home-body .status-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    padding: 0 4px;
+}
+
+.home-body .top-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 100%;
+}
+
+.home-body .card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+
+.home-body .profile-head,
+.home-body .benefit-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.home-body .profile-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #d5d5d8;
+    margin: 0 auto 10px;
+}
+
+.home-body .profile-name {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.home-body .profile-sign,
+.home-body .profile-en {
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.home-body .profile-foot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #888;
+    margin-top: 12px;
+}
+
+.home-body .benefit-item {
+    margin-bottom: 12px;
+    border-left: 2px solid #333;
+    padding-left: 8px;
+}
+
+.home-body .benefit-item h3 {
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.home-body .benefit-item p {
+    font-size: 10px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.home-body .notice-card {
+    width: 100%;
+    padding: 20px;
+}
+
+.home-body .notice-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.home-body .notice-sub {
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.home-body .notice-block {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+}
+
+.home-body .notice-tag {
+    font-size: 11px;
+    background: #f0f0f2;
+    color: #555;
+    padding: 4px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.home-body .notice-text {
+    font-size: 12px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.home-body .notice-foot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #999;
+    margin-top: 18px;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 12px;
+}
+
+/* 底部导航，只作用于第 2 页 */
+.home-body .nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    max-width: 420px;
+    padding: 14px 0 24px;
+}
+
+.home-body .nav-item {
+    flex: 1;
+    text-align: center;
+    font-size: 13px;
+    color: #8e8e93;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 999px;
+    transition: all 0.2s;
+}
+
+.home-body .nav-item.active {
+    color: #1d1d1f;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.06);
+}

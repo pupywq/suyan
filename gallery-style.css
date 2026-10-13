@@ -175,3 +175,9 @@
     font-weight: 600;
     background: rgba(0, 0, 0, 0.06);
 }
+
+.gallery-body a.record-card {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
